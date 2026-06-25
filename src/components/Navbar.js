@@ -42,6 +42,18 @@ const Navbar = ({ user, setUser }) => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/scenario-carousel">
+                <i className="bi bi-collection-play me-1" />
+                投放演练
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/assistant">
+                <i className="bi bi-chat-dots me-1" />
+                Eco 助手
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/about">
                 <i className="bi bi-info-circle me-1" />
                 关于
